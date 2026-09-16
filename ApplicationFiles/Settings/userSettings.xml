@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<userSettings> 
+  <lastOpenTalkSwitchAddress>169.254.45.206:9393</lastOpenTalkSwitchAddress>  
+  <lastOpenFirmwarePath/>  
+  <lastOpenPromptsPath/>  
+  <lastMusicOnHoldPath/>  
+  <lastFileOpenPath/>  
+  <lastTemplatePath/>  
+  <addressBook/>  
+  <locale>en_US</locale>  
+  <lineAppearance/>  
+  <additionalPhoneGroups/>  
+  <additionalPhones/>  
+  <lastTestEmailAddress/>  
+  <lastHolidaySelection/>  
+  <calibrationNotification>true</calibrationNotification>  
+  <noAdminPassword>true</noAdminPassword>  
+  <noHandSetOrderWarning>true</noHandSetOrderWarning> 
+</userSettings>

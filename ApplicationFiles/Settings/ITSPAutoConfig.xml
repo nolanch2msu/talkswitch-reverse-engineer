@@ -1,0 +1,196 @@
+<serviceProviderDefaults>
+	<version>1.00.012</version>
+	<!--
+		Note: Any omitted fields will keep their old values Example with all fields included:
+		<serviceProviderInfo>
+			<name>BabyTel</name> - String
+			<signupurl>babyTel</signupurl>
+			<signuptext_EN>Click to register for an account or free trial</signuptext_EN>
+			<signuptext_ES>Haga clic aquí para una cuenta o prueba gratuita</signuptext_ES>
+			<signuptext_FR>Cliquer ici pour un compte ou un essai gratuit</signuptext_FR>
+			<disablePublicIP>true</disablePublicIP> - true/false
+			<userNameAuthentication>false</userNameAuthentication> - true/false
+			<keepAlive>false</keepAlive> - true/false
+			<keepAliveMethod>SIMPLE_PING_ENABLED</keepAliveMethod> - SIMPLE_PING_ENABLED/NORTEL_PING_ENABLED
+			<keepAliveTimer>45</keepAliveTimer> - integer
+			<supportedCodecs>G729,G711u,G711a</supportedCodecs> - Comma Separated List G729/G726/G711u/G711a, First one is the preferred codec
+			<vad>false</vad> - true/false
+			<proxy>sip.babytel.ca</proxy> - String
+			<registrar>sip.babytel.ca</registrar> - String
+			<outbound>nat.babytel.ca</outbound> - String
+			<realm>sip.babytel.ca</realm> - String
+		</serviceProviderInfo>
+	-->
+	<serviceProviders>
+		<serviceProviderInfo>
+			<name>babyTel</name>
+			<signupurl>babyTel</signupurl>
+			<signuptext_EN>Click for free 2 month service trial</signuptext_EN>
+			<signuptext_ES>Haga clic aquí para una prueba gratuita de dos meses</signuptext_ES>
+			<signuptext_FR>Cliquer ici pour un essai gratuit de deux mois</signuptext_FR>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G729,G711u,G711a</supportedCodecs>
+			<vad>false</vad>
+			<proxy>sip.babytel.ca</proxy>
+			<registrar>sip.babytel.ca</registrar>
+			<outbound>nat.babytel.ca:5065</outbound>
+			<realm>sip.babytel.ca</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>BandTel</name>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G711u,G729</supportedCodecs>
+			<vad>false</vad>
+			<proxy>proxy1.bandtel</proxy>
+			<registrar>registrar.bandtel</registrar>
+			<outbound></outbound>
+			<realm></realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Bandwidth.com</name>
+			<disablePublicIP>false</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<keepAliveMethod></keepAliveMethod>
+			<keepAliveTimer></keepAliveTimer>
+			<supportedCodecs>G711u,G729</supportedCodecs>
+			<vad>false</vad>
+			<proxy>ot.bandwidth.com</proxy>
+			<registrar></registrar>
+			<outbound></outbound>
+			<realm></realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>BroadVox primary</name>
+			<disablePublicIP>false</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G729,G711u</supportedCodecs>
+			<vad>false</vad>
+			<proxy>fs.broadvox.net</proxy>
+			<registrar>fs.broadvox.net</registrar>
+			<outbound>fs.broadvox.net</outbound>
+			<realm></realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>BroadVox secondary</name>
+			<disablePublicIP>false</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G729,G711u</supportedCodecs>
+			<vad>false</vad>
+			<proxy>fs.broadvox.net</proxy>
+			<registrar></registrar>
+			<outbound></outbound>
+			<realm></realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Callserve</name>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G729,G726,G711u,G711a</supportedCodecs>
+			<vad>false</vad>
+			<proxy>sip186.phoneserve.com</proxy>
+			<registrar>sip186.phoneserve.com</registrar>
+			<outbound></outbound>
+			<realm></realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Cbeyond</name>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<keepAliveMethod></keepAliveMethod>
+			<keepAliveTimer></keepAliveTimer>
+			<supportedCodecs>G711u</supportedCodecs>
+			<vad>false</vad>
+			<proxy>Enter CBeyond server</proxy>
+			<registrar>Enter CBeyond server</registrar>
+			<outbound>Enter CBeyond sip-proxy</outbound>
+			<realm>Enter CBeyond server</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Covad</name>
+			<disablePublicIP>false</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G711u,G729</supportedCodecs>
+			<vad>false</vad>
+			<proxy>dc-sip.east.ia.covad.com</proxy>
+			<registrar>dc-sip.east.ia.covad.com</registrar>
+			<outbound>dc-sip.east.ia.covad.com</outbound>
+			<realm>dc-sip.east.ia.covad.com</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>nexVortex</name>
+			<disablePublicIP>false</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<keepAliveMethod></keepAliveMethod>
+			<keepAliveTimer></keepAliveTimer>
+			<supportedCodecs>G729,G711u</supportedCodecs>
+			<vad>false</vad>
+			<proxy>66.23.129.253</proxy>
+			<registrar>66.23.129.253</registrar>
+			<outbound>66.23.129.253</outbound>
+			<realm>nexvortex.com</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Primus USA</name>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G711u</supportedCodecs>
+			<vad>false</vad>
+			<proxy>asnjla3.bw.iprimus.net</proxy>
+			<registrar>asnjla3.bw.iprimus.net</registrar>
+			<outbound>njext.sbc.primusvoip.com</outbound>
+			<realm>asnjla3.bw.iprimus.net</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Proximiti</name>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G711u,G729</supportedCodecs>
+			<vad>false</vad>
+			<proxy>ts.proximiti.com</proxy>
+			<registrar>ts.proximiti.com</registrar>
+			<outbound>ts.proximiti.com</outbound>
+			<realm>ts.proximiti.com</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Rubicon</name>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G729,G711u</supportedCodecs>
+			<vad>false</vad>
+			<proxy>sip.myvoipaccount.net</proxy>
+			<registrar>sip.myvoipaccount.net</registrar>
+			<outbound></outbound>
+			<realm>sip.myvoipaccount.net</realm>
+		</serviceProviderInfo>
+		<serviceProviderInfo>
+			<name>Titan</name>
+			<signupurl>Titan</signupurl>
+			<signuptext_EN>Click for free 2 month service trial</signuptext_EN>
+			<signuptext_ES>Haga clic aquí para una prueba gratuita de dos meses</signuptext_ES>
+			<signuptext_FR>Cliquer ici pour un essai gratuit de deux mois</signuptext_FR>
+			<disablePublicIP>true</disablePublicIP>
+			<userNameAuthentication>false</userNameAuthentication>
+			<keepAlive>false</keepAlive>
+			<supportedCodecs>G729</supportedCodecs>
+			<vad>false</vad>
+			<proxy>ep.talkswitch.rgns.net</proxy>
+			<registrar>ep.talkswitch.rgns.net</registrar>
+			<outbound>ep.talkswitch.rgns.net</outbound>
+			<realm>ep.talkswitch.rgns.net</realm>
+		</serviceProviderInfo>
+	</serviceProviders>
+</serviceProviderDefaults>

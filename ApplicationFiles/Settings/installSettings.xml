@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installSettings>
+    <recommendedFirmwareVersion>650008</recommendedFirmwareVersion>
+    <requiredFirmwareVersion>650000</requiredFirmwareVersion>
+    <maximumAcceptedFirmwareVersion>650999</maximumAcceptedFirmwareVersion>
+    <steppingUpgradeFirmwareVersion>612091</steppingUpgradeFirmwareVersion>
+    <minimumCommunicationFirmwareVersion>620000</minimumCommunicationFirmwareVersion>
+    <minimumBootBlockVersion>600000</minimumBootBlockVersion>
+    <minimumBBFile>ApplicationFiles\Firmware\BBLOCK.BIN</minimumBBFile>
+    <installedFirmwarePath>ApplicationFiles\Firmware\T650CV008b04_RELEASE_US.TFL</installedFirmwarePath>
+    <steppingFirmwarePath>ApplicationFiles\Firmware\t612cv91_RELEASE.tfl</steppingFirmwarePath>
+    <region>US</region>
+    <regionLocale>US</regionLocale>
+</installSettings>

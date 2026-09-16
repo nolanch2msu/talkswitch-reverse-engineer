@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userSettings>
+    <lastOpenTalkSwitchAddress></lastOpenTalkSwitchAddress>
+    <lastOpenFirmwarePath></lastOpenFirmwarePath>
+    <lastOpenPromptsPath></lastOpenPromptsPath>
+    <lastMusicOnHoldPath></lastMusicOnHoldPath>
+    <lastFileOpenPath></lastFileOpenPath>
+    <lastTemplatePath></lastTemplatePath>
+    <addressBook></addressBook>
+    <locale>en_US</locale>
+    <lineAppearance></lineAppearance>
+    <additionalPhoneGroups></additionalPhoneGroups>
+    <additionalPhones></additionalPhones>
+    <lastTestEmailAddress></lastTestEmailAddress>
+    <lastHolidaySelection></lastHolidaySelection>
+    <calibrationNotification>true</calibrationNotification>
+    <noAdminPassword>true</noAdminPassword>
+    <noHandSetOrderWarning>true</noHandSetOrderWarning>
+</userSettings>
